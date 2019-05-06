@@ -1,0 +1,498 @@
+*{margin:0;
+padding: 0;}
+
+@charset "UTF-8";
+@font-face {
+  font-family: "font-family: 'Montserrat', sans-serif;";
+  src:url("../fonts/sampleicons.eot");
+  src:url("../fonts/sampleicons.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/sampleicons.woff") format("woff"),
+    url("../fonts/sampleicons.ttf") format("truetype"),
+    url("../fonts/sampleicons.svg#sampleicons") format("svg");
+  font-weight: bold;
+  font-style: normal;
+
+}
+[data-icon]:before {
+  font-family: "font-family: 'Montserrat', sans-serif;" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "font-family: 'Montserrat', sans-serif;" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.grad{
+background-image: linear-gradient(-90deg, #0F43A9,#111744);
+height: 80px;
+position: relative;
+}
+
+.logo img {
+   margin-top:10px;
+   margin-left: 15px;
+    float: left;
+    width: 130px;
+    height: 60px;
+}
+
+
+
+ul{
+  
+    float:right;
+    list-style-type: none;
+    position: relative;
+    bottom: 15px;
+}
+
+.icon-logout:before {
+  content: "\66";
+  font-size:24px;
+  position: relative;
+  top: 6px;
+  margin-right: 20px;
+color:#5F88D6;}
+  .icon-icon:before {
+    content: "\63";
+    font-size:24px;
+    position: relative;
+    margin-right: 15px;
+    top: 5px;
+   
+  }
+  .icon-avatar:before {
+    content: "\64";
+    font-size:24px;
+    position: relative;
+    top: 5px;
+    margin-right: 15px;
+  }
+  .icon-settings:before {
+    content: "\61";
+    font-size:24px;
+    position: relative;
+    top: 5px;
+    margin-right: 15px;
+  }
+  .icon-piggy-bank:before {
+    content: "\62";
+    position: relative;
+    right:12px;
+    top: 25px;
+    font-size:75px;
+  }
+  .icon-money:before {
+    content: "\67";
+    position: relative;
+    right:12px;
+    top: 25px;
+    font-size:75px;
+  }
+  .icon-team:before {
+    content: "\68";
+    position: relative;
+    right:12px;
+    top: 25px;
+    font-size:75px;
+  }
+  .icon-analytics:before {
+    content: "\65";
+    position: relative;
+    right:12px;
+    top: 25px;
+    font-size:75px;
+  }
+
+ul li {
+    display:inline-block;
+    margin-top: 35px;
+    margin-right: 15px;
+    position: relative;
+}
+
+ul li a{
+  
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    color:white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+}
+.sidenav {
+    height: 100%;
+    width: 236px;
+    position: absolute;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    box-shadow: 10px 5px 20px grey;
+    
+  }
+
+  .sidenav a {
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 25px;
+    border-bottom: 1px solid #F5F5F5;
+    
+    text-decoration: none;
+    font-size: 12px;
+    color: #818181;
+     display: block;
+
+  
+}
+  .button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    float: right;
+   
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin-top:1px;
+    margin-right: 4px;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+
+  }
+  .button1 {background-color:#1140B2;border-radius: 7px;box-shadow: 5px 5px 5px grey;}
+  .button2 {background-color:#1140B2;border-radius: 7px;box-shadow: 5px 5px 5px grey;}
+.button3 {background-color: #1140B2;border-radius: 7px;box-shadow: 5px 5px 5px grey;} 
+
+  .dashboard{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: #F7F7F7;
+
+    height: 75px;
+
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    
+      float :left;
+      
+      margin-left: 275px; 
+      margin-top:30px;
+      color: #071F4F;
+
+  }
+  body{background-color:#E7E7E7; }
+
+  .content{
+ margin-left:237px;
+
+  }
+  
+  .butt {
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    
+    color: white;
+    margin: 10px 2px;
+    margin-left:25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+
+  }
+  .butt1 {background-color:#3984D7;border-radius: 7px; padding: 0 0 8px 2px;width:210px;height: 110px;}
+  .butt2 {background-color:#7E58BD;border-radius: 7px; padding: 0 0 8px 2px;width:210px;height: 110px;}
+.butt3 {background-color: #CD5CC6;border-radius: 7px;padding: 0 0 8px 2px;width:210px;height: 110px;} 
+.butt4 {background-color: #DE5283;border-radius: 7px;padding: 0 0 8px 2px;width:210px;height: 110px;} 
+
+  
+table {
+  font-family: 'Montserrat', sans-serif;
+  
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    border-collapse: collapse;
+    width:450px;
+    margin-left:48px;
+
+  }/*
+  .table1{float:right;
+position: relative;}
+  */
+
+  .table1 {
+      width:600px;
+    display: inline-block;
+    margin-left: 20px;
+  
+}
+  th, td {
+    padding: 15px;
+    font-size:13px;
+    text-align: left;
+    border-top: 1px solid #ddd;
+  }
+  
+  tr:hover {
+      background-color:#f5f5f5;
+    }
+    .vl {
+      border-left: 6px solid #5F88D6;
+      border-width: thin;
+      height: 78px;
+      left: 240px;
+      top:15px;
+      position: absolute;
+    }
+    .butt1 b{
+    
+      font-size: 40px;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .butt1 small{
+      font-size: 15px;
+      margin-left: 100px;
+      position: relative;
+      bottom: 12px;
+    }
+    .butt2 b{
+      font-size: 40px;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .butt2 small{
+      font-size: 15px;
+      margin-left: 80px;
+      position: relative;
+      bottom: 12px;
+    }
+    .butt3 b{
+      font-size: 40px;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .butt3 small{
+      font-size: 15px;
+      margin-left: 80px;
+      position: relative;
+      bottom: 12px;
+    }
+
+    .butt4 b{
+      font-size: 40px;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .butt4 small{
+      font-size: 15px;
+      margin-left: 80px;
+      position: relative;
+      bottom: 12px;
+    }
+
+/*sidenavbar*/
+
+    @media screen and (max-width: 700px) {
+      .sidenav {
+      
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+      .sidenav a {
+        padding: 6px;
+        float: left;
+      }
+      div.content {
+        margin-left:0;
+      }
+    }
+
+@media screen and (min-width: 500px)and (max-width: 570px ) {
+ .hidden{display:none;}
+ .icon{display: hidden;}
+ #myLinks{display: none;}
+  .sidenav a {
+    text-align: center;
+    float: none;
+    height: auto;
+  }
+  .content{
+    text-align: center;
+    float: none;
+  }
+  .butt{
+    margin: 6px;
+    margin-left: 15px;
+  }
+  .button{
+    text-align: center;
+    margin-top:15px;
+    width: auto;
+    float:right;
+    margin-right: 25px;
+    position: relative;
+    right: 35px;
+    display:inline-block;
+    padding: 5px 10px;}
+  .dashboard h4{ text-align: center;
+    float: right;
+   position: relative;
+    right: 210px;
+    color: white;
+    width: auto; }
+  .dashboard {
+    background-color: rgb(0, 6, 12);
+    width: auto;}
+  
+  .grad{
+  height: 125px;}
+  .logo img{
+    width: 200px;
+    height: 60px;}
+    .nav ul li{
+      position: relative;
+     top: 25px;
+     display: inline; }
+     .nav ul li a{
+      position: relative;
+      width: auto;
+      margin-left: 2px;
+      display: inline; }
+      .vl{
+        display:none; }
+      .icon-logout::before{
+        font-size:14px;
+        top:2px;
+        padding: 5px;
+        margin-right: 10px;
+      }
+    .table1{
+      position: relative;
+      float: left;
+      left:20px;
+      overflow-x:scroll;
+      height: 210px;
+      width: 450px;
+      
+    }
+  }
+
+  @media screen and (min-width: 400px)and (max-width: 499px ){
+
+   
+.hidden{
+  position: relative;
+  top:2px;
+  margin-left: 15px;
+height: 2px;
+width: 15px;
+
+}
+    .sidenav a {
+      text-align: center;
+      float: none;
+      height: auto;
+    }
+    .sidenav #myLinks {
+      display: none;
+    }
+    .content{
+      text-align: center;
+      float: none;
+    }
+    .butt{
+      margin: 6px;
+      margin-left: 15px;
+    }
+    .button{
+      text-align: center;
+      margin-top:15px;
+      width: auto;
+      float:right;
+      margin-right: 25px;
+      position: relative;
+      right: 15px;
+      display:inline-block;
+      padding: 5px 10px;}
+    .dashboard h4{ text-align: center;
+      float: right;
+     position: relative;
+      right: 170px;
+      color: white;
+      width: auto; }
+    .dashboard {
+      background-color: rgb(0, 6, 12);
+      width: auto;}
+    
+    .grad{
+    height: 100px;}
+    .logo img{
+      width: 200px;
+      height: 60px;}
+      .nav ul li{
+        position: relative;
+       top: 25px;
+       display: inline; }
+       .nav ul li a{
+         
+        font-size: 0%;}
+          
+        }
+
+        .vl{
+          display:none; 
+        }
+        .icon-logout::before{
+          font-size:25px;
+          color:white;
+          top:20px;
+          padding: 5px;
+          margin-right: 10px;
+        }
+      .table1{
+        position: relative;
+        float: left;
+        left:20px;
+        overflow-x:scroll;
+        height: 210px;
+        width: 450px;
+        
+      }
+    
+  }
+
+
+
